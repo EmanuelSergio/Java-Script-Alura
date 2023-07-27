@@ -32,7 +32,7 @@ for (let index = 0; index < listaDeTecla.length; index++) {
 
         console.log(evento.code === 'Space' || evento.code === 'Enter');
 
-      if(evento.code === 'Space'){
+      if(evento.code === 'Space' || evento.code === 'Enter'){
           tecla.classList.add('ativa');
       }
     }
